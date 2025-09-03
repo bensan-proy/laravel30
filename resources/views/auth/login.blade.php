@@ -3,7 +3,7 @@
         <x-slot name="logo">
             <x-authentication-card-logo />
         </x-slot>
-
+<img src="{{ Vite::asset('resources/images/logo_usb.png') }}">
         <x-validation-errors class="mb-4" />
 
         @session('status')
@@ -38,7 +38,7 @@
                         {{ __('Forgot your password?') }}
                     </a>
                 @endif
-
+                   <button class="btn_ingresar" >Prueba</button> 
                 <x-button class="ms-4">
                     {{ __('Log in') }}
                 </x-button>
